@@ -34,15 +34,15 @@ async function getweather() {
     const temp = weatherData.current.temperature_2m;
 
      if (temp > 30) {
-    img.src = "images/sunny.jfif";
+    img.src = "sunny.jfif";
       }
     else if (temp > 20) {
-    img.src = "images/cloudy.png";
+    img.src = "cloudy.png";
     }
     else if (temp > 10) {
-    img.src = "images/rainy.jfif";
+    img.src = "rainy.jfif";
      }
     else {
-    img.src = "images/storm.webp";
+    img.src = "storm.webp";
      }
 };
