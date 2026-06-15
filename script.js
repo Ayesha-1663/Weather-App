@@ -27,8 +27,8 @@ async function getweather() {
     const weatherResponse = await fetch(URL);
     const weatherData = await weatherResponse.json();
 
-    document.querySelector(".area").innerText = `Area : ${area}`;
-    document.querySelector(".temprature").innerText = `Temperature: ${weatherData.current.temperature_2m}°C`;
+    document.querySelector(".area").innerText = `${area}`;
+    document.querySelector(".temprature").innerText = `${weatherData.current.temperature_2m}°C`;
     document.querySelector(".wind").innerText = `${weatherData.current.wind_speed_10m}km/h`;
     const img = document.querySelector(".weather_img");
     const temp = weatherData.current.temperature_2m;
