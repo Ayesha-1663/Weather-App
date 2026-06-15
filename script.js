@@ -1,6 +1,8 @@
 const temperature = document.querySelector(".temprature");
 const wind = document.querySelector(".wind");
-
+const URL = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m`;
+ temperature.innerText = `${https://api.open-meteo.com/v1/forecast?latitude=24.8608&longitude=67.0104&current=temperature_2m,wind_speed_10m}°C`
+    
 let Search = document.querySelector(".Search");
 Search.addEventListener("keydown",function(event){
      if(event.key == "Enter"){
