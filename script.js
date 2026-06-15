@@ -1,5 +1,4 @@
-const geoURL = `https://geocoding-api.open-meteo.com/v1/search?name=Karachi&count=1`;
-const URL = `https://api.open-meteo.com/v1/forecast?latitude=24.8608&longitude=67.0104&current=temperature_2m,wind_speed_10m`;
+
 
 let Search = document.querySelector(".Search");
 Search.addEventListener("keydown",function(event){
